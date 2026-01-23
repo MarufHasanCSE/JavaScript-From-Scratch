@@ -14,12 +14,15 @@ const trimmedEnd = userInput.trimEnd();
 console.log("After using the trimEnd() method, trailing spaces removed:");
 console.log(trimmedEnd);
 
-
 const upperCaseInput = cleanedInput.toUpperCase();
 console.log("Result of using the toUpperCase() method:");
 console.log(upperCaseInput);
 
-
-const lowerCaseInput  = cleanedInput.toLowerCase();
+const lowerCaseInput = cleanedInput.toLowerCase();
 console.log("Result of using the toLowerCase() method:");
 console.log(lowerCaseInput);
+
+let lowercaseWord = "camelcase";
+let camelCasedVersion  = "";
+console.log("Camel cased version:");
+console.log(camelCasedVersion);
