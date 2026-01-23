@@ -22,7 +22,10 @@ const lowerCaseInput = cleanedInput.toLowerCase();
 console.log("Result of using the toLowerCase() method:");
 console.log(lowerCaseInput);
 
-let lowercaseWord = "camelcase";
-let camelCasedVersion  = "";
+const lowercaseWord = "camelcase";
+let camelCasedVersion = lowercaseWord.slice(0, 5)
 console.log("Camel cased version:");
+console.log(camelCasedVersion);
+
+ camelCasedVersion = lowercaseWord.slice(0, 5) + lowercaseWord[5].toUpperCase();
 console.log(camelCasedVersion);
