@@ -10,3 +10,11 @@ console.log(`fccSentence.includes("JavaScript") returns ${hasJavaScript} because
 
 const hasLowercaseFCC = fccSentence.includes("freecodecamp");
 console.log(`fccSentence.includes("freecodecamp") returns ${hasLowercaseFCC} because includes is case-sensitive.`);
+
+const message = "Welcome to freeCodeCamp!";
+
+console.log("Here are some examples of the slice() method:");
+
+const platform = message.slice(11, 23);
+console.log(`The word "${platform}" was sliced from the message.`);
+
