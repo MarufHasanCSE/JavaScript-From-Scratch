@@ -14,6 +14,17 @@ function getLoanMessage(annualIncome, creditScore) {
     return "You qualify for a condo and car loan."
   } else if (annualIncome >= minIncomeForCar && creditScore >= minCreditScoreForCar) {
     return "You qualify for a car loan."
+  } else {
+    return "You don't qualify for any loans."
   }
-
 }
+
+const duplexLoanMsg = getLoanMessage(85000, 850);
+const condoLoanMsg = getLoanMessage(65000, 690);
+const carLoanMsg = getLoanMessage(45000, 660);
+const noLoanMsg = getLoanMessage(25000, 550);
+
+console.log(duplexLoanMsg);
+console.log(condoLoanMsg);
+console.log(carLoanMsg);
+console.log(noLoanMsg);
