@@ -13,6 +13,11 @@ console.log("Now, generate a random number between two values.");
 const min = 1;
 const max = 100;
 
-let randomNum2 = Math.random() * (max - min) + min;
-
+const randomNum2 = Math.random() * (max - min) + min;
 console.log(randomNum2);
+
+console.log("The Math.floor() method rounds the value down to the nearest whole integer.");
+let numRoundedDown;
+numRoundedDown = Math.floor(6.7);
+
+console.log(numRoundedDown)
