@@ -18,5 +18,13 @@ console.log(getShoppingListMsg(shoppingList));
 console.log("It looks like we need to get some cooking oil.");
 
 shoppingList.unshift("Vegetable Oil");
+console.log(getShoppingListMsg(shoppingList));
+
+shoppingList.push("Popcorn", "Beef Jerky", "Potato Chips");
+console.log(getShoppingListMsg(shoppingList));
+
+console.log("This looks like too much junk food.");
+
+shoppingList.pop();
 
 console.log(getShoppingListMsg(shoppingList));
